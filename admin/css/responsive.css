@@ -1,0 +1,30 @@
+/* this is for home */
+@media (max-width:1199px)
+{
+    .prodact-eara .wd-18 
+    {
+		flex: 0 0 33%;
+		max-width: 33%;
+	}
+	 .prodact-eara .wd-44
+    {
+		display: none;
+	}
+}
+
+@media (max-width:600px){
+	.prodact-eara .wd-18 {
+		flex: 0 0 100%;
+		max-width: 350px;
+		margin: auto;
+    }
+    .prodact-eara .wd-44
+    {
+		display: none;
+	}
+    .p-120
+    {
+		padding-top: 70px;
+		padding-bottom: 70px;
+    }
+}

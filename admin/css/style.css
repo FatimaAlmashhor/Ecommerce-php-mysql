@@ -1,0 +1,117 @@
+*
+{
+	box-sizing :border-box;
+}
+.back
+{
+    
+	background : url("../images/loginBackground.jpg");
+	background-size : cover ;
+    background-position: center;
+	height: 100vh;
+	width: 100%;
+	margin:0;
+
+}
+
+
+.box
+{
+	position:fixed;
+	/*position:absolute;*/
+	margin-top:50px;
+	padding:20px;
+	top:10%;
+	left:62%;
+	background:rgba(0,0,0,.1);
+	width : 60vh ;
+	height : 50vh ;
+	box-shadow:  5px 5px 20px #000 ;
+	border-radius:5px;
+	border-color:#fff;
+	transition: 2s;
+}
+.box:hover 
+{
+	background:#DDD;
+	color:#000;
+}
+
+span
+{
+	margin-bottom: 20px;
+	position:relative;
+	text-align:center;
+	left:95px;
+	color :#354832;
+	font-family:Digitalt Medium;
+	font-size: 35px;
+}
+
+label
+{
+	margin:1px;
+	font-family: sans-serif;
+	color:#fff;
+	font-size:15px;
+}
+font
+{
+	
+	margin-right:5px;
+}
+.form-control
+{
+	width:27vh;
+}
+ input[type="text"] ,input[type = "password"] ,input[type="email"] ,input[type="date"]
+ {
+	 left: 10px;
+	 background:none;
+	 border: 2px solid #fff ; 
+	 margin-left:30px;
+	 
+ }
+  input[type="text"]
+ {
+	 margin-left: 50px;
+ }
+.navbar-nav 
+{
+	margin: 10px;
+}
+li
+{
+	margin: 5px;
+}
+/*.submit
+ {
+	 position:relative;
+	 width: 35%;
+	 margin: 20px;
+	 left:60%;
+	 top:10px;
+	 border-radius:5px;
+	 background:#354832;
+	 border:1px solid #354832;
+	 color:#fff;
+	 font-size: 18px;
+	 
+ }
+ .reset
+ {
+	 position:relative;
+	 width: 35%;
+	 margin: 20px;
+	 left:10%;
+	 background:none;
+	 color:#fff;
+	 font-size: 21px;
+	 color:#354832;
+	 bottom:58px;
+	 text-shadow:1.5px 1.5px 9px #000;
+	 border-bottom: 2px solid #354832 ;
+	 border-top:none;
+	 border-right:none;
+     border-left:none;
+ }
